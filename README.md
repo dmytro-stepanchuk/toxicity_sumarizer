@@ -39,9 +39,9 @@ python scripts/entry_point.py --full
 Через uv та scripts/entry_point.py тежмає працювати, але я його не протестував (нема на чому)
 #######################################################################################
 Результати, їх аналіз, потенційні проблеми та покращення:
-![grpo_train](.\media\grpo_graph.png "grpo_train")
-![sft_train](.\media\sft_train.png "sft_train")
-![sft_eval](.\media\sft_eval.png "sft_eval")
+![grpo_train](./media/grpo_graph.png "grpo_train")
+![sft_train](./media/sft_train.png "sft_train")
+![sft_eval](./media/sft_eval.png "sft_eval")
 
 результати навчання:
 
@@ -67,3 +67,4 @@ ROUGE - чим більше, тим краще
 -мало тестових прикладів: частина попередньої проблеми, але фактично метрики дуже шумні, аби дійсно отримати більш об'єктивну оцінку, треба більше точок тестових даних
 -messy .py файли. Можна було б написати їх краще, для evaluation та data generation використовувати infernce frameworks (vllm etc.).
 -відтворюваність (не запускав через uv та scripts/entry_point.py, а не через google colab), тому не можу гарантувати що це 100% працюватиме
+
