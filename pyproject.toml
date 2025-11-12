@@ -1,0 +1,20 @@
+[project]
+name = "kyivstar-llm-summarization"
+version = "0.1.0"
+description = "kyivstar-tesk-task"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.11.0",
+    "datasets>=4.4.1",
+    "evaluate>=0.4.6",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "peft>=0.17.1",
+    "pyyaml>=6.0.3",
+    "rouge-score>=0.1.2",
+    "torch>=2.9.1",
+    "tqdm>=4.67.1",
+    "transformers>=4.57.1",
+    "trl>=0.25.0",
+    "wandb>=0.23.0",
+]
